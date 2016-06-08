@@ -3,6 +3,8 @@
 
 // Init angular
 document.addEventListener('deviceready', function(){alert('i am ready');}, false);
+var $$ = Dom7;
+$$(document).on('deviceready', function(){alert('i am ready');}, false);
 var MyApp = {};
 
 MyApp.config = {
