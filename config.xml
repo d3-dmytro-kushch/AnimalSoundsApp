@@ -6,14 +6,14 @@
         id        = "AnimalSoundsApp"
         version   = "1.0.0">
 
-    <name>Avansovka</name>
+    <name>AnimalSoundsApp</name>
 
     <description>
-        Your mobile App for expense reporting in Russia
+        Animal Sounds App
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
-        Avansovka
+        AnimalSoundsApp
     </author>
 
     <!--
