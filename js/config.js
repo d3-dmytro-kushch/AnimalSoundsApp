@@ -2,6 +2,7 @@
 /*global console, MyApp, angular, Framework7*/
 
 // Init angular
+document.addEventListener('deviceready', function(){alert('i am ready');}, false);
 var MyApp = {};
 
 MyApp.config = {
