@@ -6,7 +6,7 @@ MyApp.angular.controller('IndexPageController', ['$scope', '$http', 'InitService
   
   InitService.addEventListener('ready', function () {
     // DOM ready
-    console.log('IndexPageController: ok, DOM ready');
+    alert('IndexPageController: ok, DOM ready');
     
     // You can access angular like this:
     // MyApp.angular

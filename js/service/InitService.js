@@ -14,6 +14,7 @@ MyApp.angular.factory('InitService', ['$document', function ($document) {
   };
 
   function onReady() {
+    alert('onReady')
     var fw7 = MyApp.fw7,
       i;
 
@@ -30,11 +31,11 @@ MyApp.angular.factory('InitService', ['$document', function ($document) {
 
       if (document.URL.indexOf("http://") === -1 && document.URL.indexOf("https://") === -1) {
         // Cordova
-        console.log("Using Cordova/PhoneGap setting");
+        alert("Using Cordova/PhoneGap setting");
         document.addEventListener("deviceready", onReady, false);
       } else {
         // Web browser
-        console.log("Using web browser setting");
+        alert("Using web browser setting");
         onReady();
       }
       

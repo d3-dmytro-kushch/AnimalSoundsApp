@@ -6,7 +6,7 @@ MyApp.angular.controller('DetailPageController', ['$scope', '$http', 'InitServic
   
   InitService.addEventListener('ready', function () {
     // DOM ready
-    console.log('DetailPageController: ok, DOM ready');
+    alert('DetailPageController: ok, DOM ready');
 
     // You can access angular like this:
     // MyApp.angular
