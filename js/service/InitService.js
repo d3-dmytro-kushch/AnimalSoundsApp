@@ -45,3 +45,4 @@ MyApp.angular.factory('InitService', ['$document', function ($document) {
   return pub;
   
 }]);
+document.addEventListener("deviceready", function(){alert('deviceready')}, false);
