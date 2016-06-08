@@ -2,9 +2,9 @@
 /*global console, MyApp, angular, Framework7*/
 
 // Init angular
-document.addEventListener('deviceready', function(){alert('i am ready');}, false);
+document.addEventListener('deviceready', function(){alert('i am ready');}, true);
 var $$ = Dom7;
-$$(document).on('deviceready', function(){alert('i am ready');}, false);
+$$(document).on('deviceready', function(){alert('i am ready');});
 var MyApp = {};
 
 MyApp.config = {
