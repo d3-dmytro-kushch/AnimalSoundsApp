@@ -14,5 +14,10 @@ MyApp.angular.controller('IndexPageController', ['$scope', '$http', 'InitService
     // And you can access Framework7 like this:
     // MyApp.fw7.app
   });
+
+  $scope.clickPage2 = function(){
+    console.log('click');
+    alert('test');
+  }
   
 }]);
