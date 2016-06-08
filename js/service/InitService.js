@@ -36,7 +36,7 @@ MyApp.angular.factory('InitService', ['$document', function ($document) {
           alert('timeout');
           alert(device.model);
           onReady();
-        }, 3000)
+        }, 3000);
       } else {
         // Web browser
         alert("Using web browser setting");
