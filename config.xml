@@ -71,6 +71,7 @@
     </gap:plugin>
     <plugin name="de.appplant.cordova.plugin.email-composer" spec="0.8.2" source="pgb" />
     <plugin name="nl.madebymark.share" spec="0.1.1" source="pgb" />
+    <plugin name="de.neofonie.cordova.plugin.nativeaudio" spec="3.0.2" source="pgb" />
 
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
